@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EnglishX</string>
+    <string name="repeat_func">REPEAT</string>
+    <string name="answer_func">ANSWER</string>
+    <string name="duration">Duration</string>
+    <string name="file">File</string>
+    <string name="path">Path</string>
+    <string name="start">Start</string>
+
+    <string name="exam_second">5</string>
+
+
+    <string name="exam_repeat">I GO TO SCHOOL</string>
+    <string name="exam_repeat_title">Repeat</string>
+    <string name="exam_repeat_ans">I GO TO SCU...</string>
+    <string name="exam_question">WHAT IS YOUR NAME?</string>
+    <string name="exam_answer">My name is ...</string>
+    <string name="exam_answer_title">Answer</string>
+
+    <string name="result_point">2/5</string>
+    <string name="result_title">Result</string>
+    <string name="result_again">Again</string>
+    <string name="result_review">Review</string>
+    <string name="result_home">Home</string>
+
+    <string name="review_title">Review</string>
+    <string name="review_list_answer">List answer</string>
+
+</resources>

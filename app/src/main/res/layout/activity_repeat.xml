@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RepeatActivity"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/txtv_repeat_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exam_second"
+        android:textSize="100sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtv_repeat_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exam_repeat"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/exam_repeat_title"/>
+
+    <TextView
+        android:id="@+id/txtv_repeat_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exam_repeat_ans"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorPrimary"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgview_mic"
+            android:src="@drawable/ic_mic_none_black_24dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"/>
+        <TextView
+            android:id="@+id/txtv_repeat_status"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/imgview_mic"
+            android:text="..."
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+</LinearLayout>
